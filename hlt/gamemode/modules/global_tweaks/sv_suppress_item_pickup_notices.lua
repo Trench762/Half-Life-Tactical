@@ -1,0 +1,5 @@
+hook.Add("PlayerSpawn", "HLT Suppress Item Pickup Notices On Player Spawn", function(ply, transition)
+    timer.Simple(1, function()
+        Entity(1):SetSuppressPickupNotices( true )
+    end)
+end)

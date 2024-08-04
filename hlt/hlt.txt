@@ -1,0 +1,8 @@
+"HLT"
+{
+	"base"		"base"
+	"title"		"HLT"
+	"maps"		"rp_"
+	"menusystem"	"1"
+	"workshopid"	""
+}
